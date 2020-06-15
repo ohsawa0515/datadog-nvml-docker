@@ -1,5 +1,9 @@
 # datadog-nvml-docker
 
+Monitoring NVIDIA GPUs status using Datadog with running Docker.
+
+Please see [datadog_nvml](https://github.com/ngi644/datadog_nvml) about Datadog module.
+
 ```bash
 docker run -d --gpus=all \
               -v /var/run/docker.sock:/var/run/docker.sock:ro \
