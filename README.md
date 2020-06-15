@@ -1,6 +1,6 @@
 # datadog-nvml-docker
 
-```console
+```bash
 docker run -d --gpus=all \
               -v /var/run/docker.sock:/var/run/docker.sock:ro \
               -v /proc/:/host/proc/:ro \
