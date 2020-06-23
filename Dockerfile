@@ -1,5 +1,7 @@
 FROM datadog/agent:latest
 
+ENV NVIDIA_VISIBLE_DEVICES=all
+
 RUN mkdir -p /etc/datadog-agent/checks.d/ && \
     mkdir -p /etc/datadog-agent/conf.d/nvml.d && \
     /opt/datadog-agent/embedded/bin/pip install nvidia-ml-py3==7.352.0
