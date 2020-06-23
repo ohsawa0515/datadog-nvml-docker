@@ -15,3 +15,7 @@ docker run -d --gpus=all \
               -e DD_SITE=datadoghq.com \
               ohsawa0515/datadog-nvml:latest
 ```
+
+## Docker image
+
+https://hub.docker.com/r/ohsawa0515/datadog-nvml
