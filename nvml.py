@@ -1,3 +1,8 @@
+# This file has been modified in GPL 2.0 as follows
+#
+# https://raw.githubusercontent.com/ngi644/datadog_nvml/master/nvml.py
+#
+
 # encoding: utf-8
 
 # the following try/except block will make the custom check compatible with any Agent version
